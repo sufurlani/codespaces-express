@@ -14,7 +14,7 @@ provider "aws" {
  secret_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 }
  
-resource "aws_s3_bucket" "spacelift-test1-s3" {
-   bucket = "spacelift-test1-s3"
+resource "aws_s3_bucket" "sfurlani" {
+   bucket = "sfurlani"
    acl = "private"  
 }
