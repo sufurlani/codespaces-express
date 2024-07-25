@@ -12,7 +12,7 @@ provider "aws" {
  region     = "us-east-1"
 }
  
-resource "aws_s3_bucket" "sfurlani" {
-   bucket = "sfurlani"
+resource "aws_s3_bucket" "sfurlani1" {
+   bucket = "sfurlani1"
    acl = "private"  
 }
